@@ -1,0 +1,30 @@
+//+------------------------------------------------------------------+
+//|                                          Liquidity Hunter EA      |
+//|                                 Licensed by: Shahid Chaudhry      |
+//+------------------------------------------------------------------+
+#property copyright "Shahid Chaudhry"
+#property link      ""
+#property version   "1.00"
+#property strict
+
+// Input Parameters
+input double LotSize = 0.01;
+input bool AutoTrading = true;
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                     |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+   Print("Liquidity Hunter EA Initialized");
+   return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                              |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+   // Trading logic will be added here
+}
+//+------------------------------------------------------------------+
